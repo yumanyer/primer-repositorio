@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 /* DE ACA PARA ABAJO ES SOBRE EL HAEADER DEL INDEX
 */
+
+/*ESTO PERTENECES AL HEADER*/
 .navbar-nav li a {
     color: #fdbb2d;
     font-size: 20px;
@@ -27,22 +30,29 @@
     font-size: 20px;
 }
 /*DE ACA PARA ABAJO ARRANCA EL MAIN*/
-.aside{
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-        text-align: center;
-    }
-    .image-section {
-        display: flex;
-        width: 450px;
-        height: 700px;
-        margin-left: 30px;
-        flex-direction: column;
-        align-items: center; 
-        text-align: center; 
-    }
-.fotico{
+main{
+    background-image:url(../assets/img/RUNINNNNjpg.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.image-section {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.fotico {
     width: 200px;
     height: 160px;
 }
@@ -50,7 +60,33 @@
     width: 100%;
     max-height: 862px;
 }
-
 .carousel-inner{
-    height: 527px;
+    max-height:862px;
+}
+.alvin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+.caption {
+    margin-top: 10px;
+}
+/*A PARTIR DE ACA PARA ABAJO ES ASIDE*/
+.flia{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        background-color: #FFE17B;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px black;
+
+}
+.boton{
+    text-decoration: none;
 }
