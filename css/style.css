@@ -119,13 +119,86 @@ ul h4 {
 
 
 /***RESPOSIVEEEEE****/
-@media( max-width:1024px){
-    body{
-        background-color: red;
-    }
+@media (max-width: 1024px) {
+    
+    /* Header */
+.navbar-nav li a {
+    font-size: 18px;
+    margin: 0 10px;
 }
-@media(max-width:768px){
-    body{
-        background-color: blueviolet;
-    }
+.navbar-toggler {
+    display: block; 
+}
+* Main Section */
+.image-section {
+    margin-top: 5rem;
+    flex-direction: column; /* Cambiar a una disposición vertical */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotico {
+    width: 150px;
+    height: 120px;
+}
+
+.alvin {
+    grid-template-columns: 1fr; 
+    gap: 5px; 
+}
+/* Aside Section */
+.flia {
+    height: auto; 
+    padding: 1.25rem; 
+}
+/* Footer */
+.pie-pagina {
+    height: auto; 
+    padding: 1.25rem; 
+}
+
+.pie-pagina li {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+}
+
+
+
+
+
+
+}
+@media (max-width: 768px) {
+    /* Header */
+.navbar-nav li a {
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.navbar-toggler {
+    display: block;
+}
+/* Main Section */
+.image-section {
+    margin-top: 3rem;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotico {
+    width: 120px;
+    height: 100px;
+}
+
+.alvin {
+    grid-template-columns: 1fr; 
+    gap: 5px;
+}
+/* Aside Section */
+.flia {
+    height: auto;
+    padding: 1rem; 
+}
+
 }
