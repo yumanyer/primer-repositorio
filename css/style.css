@@ -26,3 +26,31 @@
     color: #fdbb2d;
     font-size: 20px;
 }
+/*DE ACA PARA ABAJO ARRANCA EL MAIN*/
+.aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+    }
+    .image-section {
+        display: flex;
+        width: 450px;
+        height: 700px;
+        margin-left: 30px;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+.fotico{
+    width: 200px;
+    height: 160px;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 862px;
+}
+
+.carousel-inner{
+    height: 527px;
+}
