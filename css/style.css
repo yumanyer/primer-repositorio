@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* DE ACA PARA ABAJO ES SOBRE EL HAEADER DEL INDEX
+*/
+.navbar-nav li a {
+    color: #fdbb2d;
+    font-size: 20px;
+    gap: .625rem;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navbar-nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-item{
+    text-decoration: none;
+    color: #fdbb2d;
+    font-size: 20px;
+}
