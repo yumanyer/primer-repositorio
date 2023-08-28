@@ -4,8 +4,9 @@
     box-sizing: border-box;
 
 }
-/* DE ACA PARA ABAJO ES SOBRE EL HAEADER DEL INDEX
-*/
+
+/*********************************INDEX.HTML******************************************/
+/* DE ACA PARA ABAJO ES SOBRE EL HAEADER*/
 
 /*ESTO PERTENECES AL HEADER*/
 .navbar-nav li a {
@@ -34,15 +35,16 @@ main{
     background-image:url(../assets/img/RUNINNNNjpg.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    width: 100%;
-    height: 100%;
+    background-size: cover;
 }
 .aside {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
+}
+.colores{
+    color: #fdbb2d;
 }
 .image-section {
     display: flex;
@@ -74,19 +76,56 @@ main{
 }
 /*A PARTIR DE ACA PARA ABAJO ES ASIDE*/
 .flia{
-        margin-top: 5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 20vh;
         background-color: #FFE17B;
-        width: 70%;
-        margin: 0 auto;
         border-radius: 20px;
         box-shadow: 10px 10px 20px black;
 
 }
 .boton{
     text-decoration: none;
+}
+
+/*DE ACA PARA ABAJO ES EL FOOTER */
+.pie-pagina{
+    background-color: #FFE17B; 
+    height: 40rem;
+    list-style: none; 
+    padding: 1.25rem; 
+    justify-content: space-between; 
+
+}
+.items-pagina{
+    margin-right: .625rem; 
+}
+.items-pagina-2{
+    justify-content: end;
+    display: flex;
+    align-items: stretch;
+    padding-bottom: -300px;
+}
+.azi{
+    margin-top: -10.625rem;
+}
+ul h4 {
+    flex: 1; 
+    text-align: center; 
+    margin-top: 3.125rem; 
+}
+
+
+/***RESPOSIVEEEEE****/
+@media( max-width:1024px){
+    body{
+        background-color: red;
+    }
+}
+@media(max-width:768px){
+    body{
+        background-color: blueviolet;
+    }
 }
