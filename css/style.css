@@ -31,7 +31,7 @@
     font-size: 20px;
 }
 /*DE ACA PARA ABAJO ARRANCA EL MAIN*/
-main{
+.index{
     background-image:url(../assets/img/RUNINNNNjpg.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
@@ -156,7 +156,7 @@ ul h4 {
 /*footerrrrr*/
 .footer{
     display: flex;
-    flex-direction: column;
+
 }
 .pie-pagina {
     display: flex;
@@ -252,7 +252,6 @@ ul h4 {
 /* Footer */
 .footer{
     display: flex;
-    flex-direction: column;
 }
 .pie-pagina {
     display: flex;
@@ -275,7 +274,7 @@ ul h4 {
 
 }
 }
-@media (max-width: 320px) {
+@media(max-width: 320px) {
     .container {
         padding: 10px;
     }
@@ -290,11 +289,16 @@ ul h4 {
 }
 .pie-pagina {
     display: flex;
-    flex-direction: column;
     background-color: #FFE17B;
     list-style: none;
-    padding: 1.25rem;
+    padding: 10px;
     height: auto;
+}
+.azi{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 10px;
 }
 
 .pie-pagina li {
@@ -315,17 +319,17 @@ ul h4 {
 
 
 /*MAINN*/
+.shop{
+    background-color: #1C1E40;
+}
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas de tamaño igual */
-    grid-template-rows: repeat(3, 1fr); /* 3 filas de tamaño igual */
-    gap: 10px; /* Espacio entre las celdas */
-    width: 80%; /* Ajusta el ancho según tus necesidades */
-    margin: 0 auto; /* Centra el grid horizontalmente */
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: .3125rem;
 }
 
 .item {
-    background-color: #ddd;
+    background-color: #ee7e7e;
     padding: 20px;
     text-align: center;
 }
