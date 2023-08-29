@@ -219,7 +219,7 @@ ul h4 {
 }
 .image-section {
     margin-top: 2rem;
-    flex-direction: column; 
+    flex-direction: column; /* Cambiar a disposición vertical */
     align-items: center;
     justify-content: space-around;
 }
@@ -239,14 +239,26 @@ ul h4 {
     padding: 0.5rem; 
 }
 /* Footer */
-.pie-pagina {
-    height: auto;
-    padding: 0.5rem;
+pie-pagina {
+    display: flex;
+    background-color: #FFE17B;
+    height: 10px; 
+    list-style: none;
+    padding: 1.25rem;
+    justify-content: space-between;
 }
+
 
 .pie-pagina li {
     margin-right: 0;
     margin-bottom: 8px;
+    list-style: none;
 }
+.items-pagina{
+    font-size: 10px;
+}
+.items-pagina-2{
+    font-size: 10px;
 
+}
 }
