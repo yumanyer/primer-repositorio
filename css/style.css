@@ -45,12 +45,13 @@ main{
 }
 .colores{
     color: #fdbb2d;
+    font-size: 1.25rem;
 }
 .image-section {
     display: flex;
     width: 100%;
     height: 700px;
-    margin-left: 30px;
+    margin-left: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -91,7 +92,14 @@ main{
 }
 
 /*DE ACA PARA ABAJO ES EL FOOTER */
+footer{
+    background-color:#FFE17B;
+}
+footer h4{
+text-align: center;
+}
 .pie-pagina{
+    display: flex;
     background-color: #FFE17B; 
     height: 40rem;
     list-style: none; 
@@ -108,9 +116,7 @@ main{
     align-items: stretch;
     padding-bottom: -300px;
 }
-.azi{
-    margin-top: -10.625rem;
-}
+
 ul h4 {
     flex: 1; 
     text-align: center; 
@@ -120,19 +126,15 @@ ul h4 {
 
 /***RESPOSIVEEEEE****/
 @media (max-width: 1024px) {
-    
-    /* Header */
-.navbar-nav li a {
-    font-size: 18px;
-    margin: 0 10px;
+
+
+/* Main Section */
+.bootstrap{
+    flex-direction: column;
 }
-.navbar-toggler {
-    display: block; 
-}
-* Main Section */
 .image-section {
     margin-top: 5rem;
-    flex-direction: column; /* Cambiar a una disposición vertical */
+    flex-direction: column; 
     align-items: center;
     justify-content: space-around;
 }
@@ -160,45 +162,4 @@ ul h4 {
 .pie-pagina li {
     margin-right: 0; 
     margin-bottom: 10px; 
-}
-
-
-
-
-
-
-}
-@media (max-width: 768px) {
-    /* Header */
-.navbar-nav li a {
-    font-size: 16px;
-    margin: 0 5px;
-}
-
-.navbar-toggler {
-    display: block;
-}
-/* Main Section */
-.image-section {
-    margin-top: 3rem;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: space-around;
-}
-
-.fotico {
-    width: 120px;
-    height: 100px;
-}
-
-.alvin {
-    grid-template-columns: 1fr; 
-    gap: 5px;
-}
-/* Aside Section */
-.flia {
-    height: auto;
-    padding: 1rem; 
-}
-
 }
