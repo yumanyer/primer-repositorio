@@ -163,3 +163,90 @@ ul h4 {
     margin-right: 0; 
     margin-bottom: 10px; 
 }
+
+
+
+
+
+
+}
+@media (max-width: 768px) {
+    /* Header */
+.navbar-nav li a {
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.navbar-toggler {
+    display: block;
+}
+/* Main Section */
+.bootstrap{
+    flex-direction: column;
+}
+.image-section {
+    margin-top: 3rem;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotico {
+    width: 120px;
+    height: 100px;
+}
+
+.alvin {
+    grid-template-columns: 1fr; 
+    gap: 5px;
+}
+/* Aside Section */
+.flia {
+    height: auto;
+    padding: 1rem; 
+}
+
+}
+@media (max-width: 425px) {
+/* Header */
+.navbar-nav li a {
+    font-size: 14px;
+    margin: 0 3px;
+}
+/* Main Section */
+.bootstrap{
+    flex-direction: column;
+}
+.image-section {
+    margin-top: 2rem;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotico {
+    width: 80px;
+    height: 65px;
+}
+
+.alvin {
+    grid-template-columns: 1fr; 
+    gap: 5px;
+}
+/* Aside Section */
+.flia {
+    height: auto;
+    padding: 0.5rem; 
+}
+/* Footer */
+.pie-pagina {
+    height: auto;
+    padding: 0.5rem;
+}
+
+.pie-pagina li {
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+}
