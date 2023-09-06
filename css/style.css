@@ -9,18 +9,18 @@
 /* DE ACA PARA ABAJO ES SOBRE EL HAEADER*/
 
 /*ESTO PERTENECES AL HEADER*/
-.navbar-nav li a {
+.menu-navegacion li a {
     color: #fdbb2d;
     font-size: 20px;
     gap: .625rem;
 }
-.navbar-nav{
+.menu-navegacion{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.navbar-nav a{
+.menu-navegacion a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +183,7 @@ ul h4 {
 
 @media (max-width: 768px) {
     /* Header */
-.navbar-nav li a {
+.menu-navegacion li a {
     font-size: 16px;
     margin: 0 5px;
 }
@@ -220,7 +220,7 @@ ul h4 {
 }
 @media (max-width: 425px) {
 /* Header */
-.navbar-nav li a {
+.menu-navegacion li a {
     font-size: 14px;
     margin: 0 3px;
 }
